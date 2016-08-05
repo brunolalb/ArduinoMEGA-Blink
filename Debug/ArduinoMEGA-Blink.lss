@@ -1,0 +1,242 @@
+
+ArduinoMEGA-Blink.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         0000018e  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .stab         000003fc  00000000  00000000  000001e4  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  2 .stabstr      0000074d  00000000  00000000  000005e0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	71 c0       	rjmp	.+226    	; 0xe4 <__ctors_end>
+   2:	00 00       	nop
+   4:	86 c0       	rjmp	.+268    	; 0x112 <__bad_interrupt>
+   6:	00 00       	nop
+   8:	84 c0       	rjmp	.+264    	; 0x112 <__bad_interrupt>
+   a:	00 00       	nop
+   c:	82 c0       	rjmp	.+260    	; 0x112 <__bad_interrupt>
+   e:	00 00       	nop
+  10:	80 c0       	rjmp	.+256    	; 0x112 <__bad_interrupt>
+  12:	00 00       	nop
+  14:	7e c0       	rjmp	.+252    	; 0x112 <__bad_interrupt>
+  16:	00 00       	nop
+  18:	7c c0       	rjmp	.+248    	; 0x112 <__bad_interrupt>
+  1a:	00 00       	nop
+  1c:	7a c0       	rjmp	.+244    	; 0x112 <__bad_interrupt>
+  1e:	00 00       	nop
+  20:	78 c0       	rjmp	.+240    	; 0x112 <__bad_interrupt>
+  22:	00 00       	nop
+  24:	76 c0       	rjmp	.+236    	; 0x112 <__bad_interrupt>
+  26:	00 00       	nop
+  28:	74 c0       	rjmp	.+232    	; 0x112 <__bad_interrupt>
+  2a:	00 00       	nop
+  2c:	72 c0       	rjmp	.+228    	; 0x112 <__bad_interrupt>
+  2e:	00 00       	nop
+  30:	70 c0       	rjmp	.+224    	; 0x112 <__bad_interrupt>
+  32:	00 00       	nop
+  34:	6e c0       	rjmp	.+220    	; 0x112 <__bad_interrupt>
+  36:	00 00       	nop
+  38:	6c c0       	rjmp	.+216    	; 0x112 <__bad_interrupt>
+  3a:	00 00       	nop
+  3c:	6a c0       	rjmp	.+212    	; 0x112 <__bad_interrupt>
+  3e:	00 00       	nop
+  40:	68 c0       	rjmp	.+208    	; 0x112 <__bad_interrupt>
+  42:	00 00       	nop
+  44:	93 c0       	rjmp	.+294    	; 0x16c <__vector_17>
+  46:	00 00       	nop
+  48:	64 c0       	rjmp	.+200    	; 0x112 <__bad_interrupt>
+  4a:	00 00       	nop
+  4c:	62 c0       	rjmp	.+196    	; 0x112 <__bad_interrupt>
+  4e:	00 00       	nop
+  50:	60 c0       	rjmp	.+192    	; 0x112 <__bad_interrupt>
+  52:	00 00       	nop
+  54:	5e c0       	rjmp	.+188    	; 0x112 <__bad_interrupt>
+  56:	00 00       	nop
+  58:	5c c0       	rjmp	.+184    	; 0x112 <__bad_interrupt>
+  5a:	00 00       	nop
+  5c:	5a c0       	rjmp	.+180    	; 0x112 <__bad_interrupt>
+  5e:	00 00       	nop
+  60:	58 c0       	rjmp	.+176    	; 0x112 <__bad_interrupt>
+  62:	00 00       	nop
+  64:	56 c0       	rjmp	.+172    	; 0x112 <__bad_interrupt>
+  66:	00 00       	nop
+  68:	54 c0       	rjmp	.+168    	; 0x112 <__bad_interrupt>
+  6a:	00 00       	nop
+  6c:	52 c0       	rjmp	.+164    	; 0x112 <__bad_interrupt>
+  6e:	00 00       	nop
+  70:	50 c0       	rjmp	.+160    	; 0x112 <__bad_interrupt>
+  72:	00 00       	nop
+  74:	4e c0       	rjmp	.+156    	; 0x112 <__bad_interrupt>
+  76:	00 00       	nop
+  78:	4c c0       	rjmp	.+152    	; 0x112 <__bad_interrupt>
+  7a:	00 00       	nop
+  7c:	4a c0       	rjmp	.+148    	; 0x112 <__bad_interrupt>
+  7e:	00 00       	nop
+  80:	48 c0       	rjmp	.+144    	; 0x112 <__bad_interrupt>
+  82:	00 00       	nop
+  84:	46 c0       	rjmp	.+140    	; 0x112 <__bad_interrupt>
+  86:	00 00       	nop
+  88:	44 c0       	rjmp	.+136    	; 0x112 <__bad_interrupt>
+  8a:	00 00       	nop
+  8c:	42 c0       	rjmp	.+132    	; 0x112 <__bad_interrupt>
+  8e:	00 00       	nop
+  90:	40 c0       	rjmp	.+128    	; 0x112 <__bad_interrupt>
+  92:	00 00       	nop
+  94:	3e c0       	rjmp	.+124    	; 0x112 <__bad_interrupt>
+  96:	00 00       	nop
+  98:	3c c0       	rjmp	.+120    	; 0x112 <__bad_interrupt>
+  9a:	00 00       	nop
+  9c:	3a c0       	rjmp	.+116    	; 0x112 <__bad_interrupt>
+  9e:	00 00       	nop
+  a0:	38 c0       	rjmp	.+112    	; 0x112 <__bad_interrupt>
+  a2:	00 00       	nop
+  a4:	36 c0       	rjmp	.+108    	; 0x112 <__bad_interrupt>
+  a6:	00 00       	nop
+  a8:	34 c0       	rjmp	.+104    	; 0x112 <__bad_interrupt>
+  aa:	00 00       	nop
+  ac:	32 c0       	rjmp	.+100    	; 0x112 <__bad_interrupt>
+  ae:	00 00       	nop
+  b0:	30 c0       	rjmp	.+96     	; 0x112 <__bad_interrupt>
+  b2:	00 00       	nop
+  b4:	2e c0       	rjmp	.+92     	; 0x112 <__bad_interrupt>
+  b6:	00 00       	nop
+  b8:	2c c0       	rjmp	.+88     	; 0x112 <__bad_interrupt>
+  ba:	00 00       	nop
+  bc:	2a c0       	rjmp	.+84     	; 0x112 <__bad_interrupt>
+  be:	00 00       	nop
+  c0:	28 c0       	rjmp	.+80     	; 0x112 <__bad_interrupt>
+  c2:	00 00       	nop
+  c4:	26 c0       	rjmp	.+76     	; 0x112 <__bad_interrupt>
+  c6:	00 00       	nop
+  c8:	24 c0       	rjmp	.+72     	; 0x112 <__bad_interrupt>
+  ca:	00 00       	nop
+  cc:	22 c0       	rjmp	.+68     	; 0x112 <__bad_interrupt>
+  ce:	00 00       	nop
+  d0:	20 c0       	rjmp	.+64     	; 0x112 <__bad_interrupt>
+  d2:	00 00       	nop
+  d4:	1e c0       	rjmp	.+60     	; 0x112 <__bad_interrupt>
+  d6:	00 00       	nop
+  d8:	1c c0       	rjmp	.+56     	; 0x112 <__bad_interrupt>
+  da:	00 00       	nop
+  dc:	1a c0       	rjmp	.+52     	; 0x112 <__bad_interrupt>
+  de:	00 00       	nop
+  e0:	18 c0       	rjmp	.+48     	; 0x112 <__bad_interrupt>
+	...
+
+000000e4 <__ctors_end>:
+  e4:	11 24       	eor	r1, r1
+  e6:	1f be       	out	0x3f, r1	; 63
+  e8:	cf ef       	ldi	r28, 0xFF	; 255
+  ea:	d1 e2       	ldi	r29, 0x21	; 33
+  ec:	de bf       	out	0x3e, r29	; 62
+  ee:	cd bf       	out	0x3d, r28	; 61
+  f0:	00 e0       	ldi	r16, 0x00	; 0
+  f2:	0c bf       	out	0x3c, r16	; 60
+
+000000f4 <__do_copy_data>:
+  f4:	12 e0       	ldi	r17, 0x02	; 2
+  f6:	a0 e0       	ldi	r26, 0x00	; 0
+  f8:	b2 e0       	ldi	r27, 0x02	; 2
+  fa:	ee e8       	ldi	r30, 0x8E	; 142
+  fc:	f1 e0       	ldi	r31, 0x01	; 1
+  fe:	00 e0       	ldi	r16, 0x00	; 0
+ 100:	0b bf       	out	0x3b, r16	; 59
+ 102:	02 c0       	rjmp	.+4      	; 0x108 <__do_copy_data+0x14>
+ 104:	07 90       	elpm	r0, Z+
+ 106:	0d 92       	st	X+, r0
+ 108:	a0 30       	cpi	r26, 0x00	; 0
+ 10a:	b1 07       	cpc	r27, r17
+ 10c:	d9 f7       	brne	.-10     	; 0x104 <__do_copy_data+0x10>
+ 10e:	02 d0       	rcall	.+4      	; 0x114 <main>
+ 110:	3c c0       	rjmp	.+120    	; 0x18a <_exit>
+
+00000112 <__bad_interrupt>:
+ 112:	76 cf       	rjmp	.-276    	; 0x0 <__vectors>
+
+00000114 <main>:
+#include <avr/interrupt.h>
+
+int main(void)
+{
+	//Setup the clock (timer 1, 62.5kHz (16MHz / 256 = 62.5kHz), CTC mode, interrupt on)
+	cli(); //Disable global interrupts
+ 114:	f8 94       	cli
+	TCCR1A = 0b00000000; //no physical outputs (COM1Ax, COM1Bx and COM1Cx == 0b00), WGM10 and WGM11 = 0.
+ 116:	10 92 80 00 	sts	0x0080, r1
+	TCCR1B = 0b00001000; //input capture off, WGM13 = 0, WGM12 = 1, prescaler 1/256 (CS1x = 0b100 - off by now, thus 0b000)
+ 11a:	88 e0       	ldi	r24, 0x08	; 8
+ 11c:	80 93 81 00 	sts	0x0081, r24
+	TCCR1C = 0b00000000; //writing a 1 to any of the 3 most significative bits forces a compare match
+ 120:	10 92 82 00 	sts	0x0082, r1
+	TCNT1 = 0x0000; //resets the timer counter
+ 124:	10 92 85 00 	sts	0x0085, r1
+ 128:	10 92 84 00 	sts	0x0084, r1
+	OCR1A = 62499; //Count 62500 cycles for 1 second interrupt
+ 12c:	83 e2       	ldi	r24, 0x23	; 35
+ 12e:	94 ef       	ldi	r25, 0xF4	; 244
+ 130:	90 93 89 00 	sts	0x0089, r25
+ 134:	80 93 88 00 	sts	0x0088, r24
+	OCR1B = 0x0000; //output compare register B is not used
+ 138:	10 92 8b 00 	sts	0x008B, r1
+ 13c:	10 92 8a 00 	sts	0x008A, r1
+	OCR1C = 0x0000; //output compare register C is not used
+ 140:	10 92 8d 00 	sts	0x008D, r1
+ 144:	10 92 8c 00 	sts	0x008C, r1
+	ICR1 = 0x0000; //input capture not used
+ 148:	10 92 87 00 	sts	0x0087, r1
+ 14c:	10 92 86 00 	sts	0x0086, r1
+	TIMSK1 = 0b00000010; //input capture interrupt off, output compare B and C interrupts off, output compare A interrupt on, overflow interrupt off
+ 150:	82 e0       	ldi	r24, 0x02	; 2
+ 152:	80 93 6f 00 	sts	0x006F, r24
+	TIFR1 = 0x00; //resets the interrupt flags
+ 156:	16 ba       	out	0x16, r1	; 22
+	TCCR1B |= 0b00000100; //turn on the timer (CS1x = 0b100)
+ 158:	80 91 81 00 	lds	r24, 0x0081
+ 15c:	84 60       	ori	r24, 0x04	; 4
+ 15e:	80 93 81 00 	sts	0x0081, r24
+	sei(); //Enable global interrupts
+ 162:	78 94       	sei
+
+	//Setup the I/O for the LED (digital pin 13, or PB7, according to the Arduino pin mapping)
+	DDRB = 0b10000000; //PB7 is digital pin 13 (LED), configured as an output
+ 164:	80 e8       	ldi	r24, 0x80	; 128
+ 166:	84 b9       	out	0x04, r24	; 4
+	PORTB |= 0b10000000; //Set PB7 high to turn on LED
+ 168:	2f 9a       	sbi	0x05, 7	; 5
+ 16a:	ff cf       	rjmp	.-2      	; 0x16a <main+0x56>
+
+0000016c <__vector_17>:
+
+	while(1) { } //Loop forever, interrupts do the rest
+}
+
+ISR(TIMER1_COMPA_vect) //Interrupt Service Routine - flag is cleared automatically
+ 16c:	1f 92       	push	r1
+ 16e:	0f 92       	push	r0
+ 170:	0f b6       	in	r0, 0x3f	; 63
+ 172:	0f 92       	push	r0
+ 174:	11 24       	eor	r1, r1
+ 176:	8f 93       	push	r24
+{
+  PORTB ^= (1<<PB7); //Use xor to toggle the LED
+ 178:	85 b1       	in	r24, 0x05	; 5
+ 17a:	80 58       	subi	r24, 0x80	; 128
+ 17c:	85 b9       	out	0x05, r24	; 5
+}
+ 17e:	8f 91       	pop	r24
+ 180:	0f 90       	pop	r0
+ 182:	0f be       	out	0x3f, r0	; 63
+ 184:	0f 90       	pop	r0
+ 186:	1f 90       	pop	r1
+ 188:	18 95       	reti
+
+0000018a <_exit>:
+ 18a:	f8 94       	cli
+
+0000018c <__stop_program>:
+ 18c:	ff cf       	rjmp	.-2      	; 0x18c <__stop_program>
